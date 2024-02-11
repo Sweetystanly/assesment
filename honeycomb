@@ -1,0 +1,8 @@
+from turtle import Turtle
+tor = Turtle()
+for iterations in range(6):
+    for comb in range(6):
+        tor.forward(60)
+        tor.right(60)
+    tor.forward(60)
+    tor.left(60)
